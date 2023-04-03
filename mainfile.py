@@ -7,6 +7,7 @@ while True:
     ret, frame = cap.read()
     if ret is False:
         break
+        
 
     roi = frame[85:295,237:700]
     rows, cols, _ = roi.shape
