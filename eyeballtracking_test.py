@@ -20,6 +20,7 @@ while True:
     for cnt in contours:
         (x, y, w, h) = cv2.boundingRect(cnt)
 
+        
         cv2.drawContours(roi, [cnt], -1, (0, 0, 255), 3)
         cv2.rectangle(roi, (x, y), (x + w, y + h), (255, 0, 0), 2)
         cv2.line(roi, (x + int(w/2), 0), (x + int(w/2), rows), (0, 255, 0), 2)
