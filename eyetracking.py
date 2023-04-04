@@ -37,7 +37,7 @@ while True:
     left_ear = eye_aspect_ratio(left_eye_pts)
     right_ear = eye_aspect_ratio(right_eye_pts)
 
-    threshold = 3
+    threshold = 3 #modify as per need
     print(left_ear, right_ear)
 
     if left_ear < threshold and right_ear < threshold:
