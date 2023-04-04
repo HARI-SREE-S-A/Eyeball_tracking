@@ -5,4 +5,5 @@ There are several different techniques for tracking eye movements. One common ap
 
 Eye tracking can be used to study a wide range of phenomena, including visual perception, attention, reading, and language processing. It is also used in the design of user interfaces, to help ensure that interfaces are easy to use and that users can quickly find the information they need.
 
+
 Eye tracking can also be used in medical settings, for example to diagnose and monitor eye diseases and conditions.
