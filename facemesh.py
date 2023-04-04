@@ -9,9 +9,6 @@ measurements = mpdraw.DrawingSpec(thickness=1,circle_radius=1)
 
 cap = cv2.VideoCapture(0)
 
-
-
-
 while True:
     border,image = cap.read()
 
@@ -35,7 +32,7 @@ while True:
                     cv2.putText(image, "open", (10, 80), cv2.FONT_HERSHEY_PLAIN, 2, (255, 0, 255), 3)
 
 
-                #print(id,cx,cy)
+                print(id,cx,cy)
 
 
 
